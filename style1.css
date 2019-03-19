@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color	: #333333;
+	font-family			: Tahoma;
+	font-size		    : 14px;
+}
+
+.main {
+	background-color	: #ffffff;
+	width				: 1348px; 
+	margin				: 0 auto;
+	border				: 1px solid #000000;	
+}
+
+
+.header {
+
+    background-image    :url(header.jpg);
+    width: 1348px;
+    height:107px;
+    text-align: center;
+    font-family:algerian;
+    font-size:60px;
+    color: #cccccc;
+	}
+	
+.menu-atas {
+	background-color	: #cccccc;
+	background-image	: url(menu-atas.gif);
+	border				: 1px solid #333;
+	padding				: 10px;
+	height				: 10px;
+}
+
+.menu-atas li {
+	display: inline;
+}
+
+.menu-atas li a {
+	color			: #333333;
+	font-size		: 12px;
+	font-weight		: bold;
+	margin-right	: 20px;
+	margin-left		: 5px;
+	text-decoration	: none
+}
+
+.menu-atas li a:hover {
+	color : rgb(179, 19, 19);
+}
+
+.menu-tengah {
+	margin		 : 10px auto;
+    width		 : 1348px;
+    height       : 1200px auto;
+    float		 : left;
+}
+
+
+.bg_menu {
+	background-color	: #CCC;
+	background-image	: url(menu-biru.gif);
+	border 				: 1px solid #333;
+	border-bottom		: 0px;
+	padding				: 7px;
+	padding-left		: 10px;
+	color				: #ffffff;
+	font-weight			: bold;
+	font-size			: 11px;
+	height				: 13px;
+}
+
+
+.content_menu {
+	background-color	: #eeeeee;
+	border				: 1px solid #333;
+	line-height			: 16px;
+	padding				: 8px;
+	margin-bottom		: 10px;
+}
+img{
+    width: 200px;
+    height:auto;
+    text-align:right;
+}
